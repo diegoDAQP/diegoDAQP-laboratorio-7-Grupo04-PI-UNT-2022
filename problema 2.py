@@ -26,6 +26,6 @@ if numero<4000 and numero>0:
             romano.append("")
         else:
             print("El numero es invalido")
+    print("Numero Romano: {}{}{}{}".format(romano[0],romano[1],romano[2],romano[3]))
 else:
     print("El numero es invalido")
-print("Numero Romano: {}{}{}{}".format(romano[0],romano[1],romano[2],romano[3]))
