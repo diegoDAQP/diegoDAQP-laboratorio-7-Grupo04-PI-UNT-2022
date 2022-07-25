@@ -22,6 +22,8 @@ if numero<4000 and numero>0:
             romano.append(lista1[i]+lista2[i])
         elif num[i]<=3 and 0<num[i]:
             romano.append(lista1[i]*(num[i]))
+        elif num[i]==0:
+            romano.append("")
         else:
             print("El numero es invalido")
 else:
