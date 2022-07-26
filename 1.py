@@ -33,15 +33,14 @@ def mul_matr(m1,m2):
             for j in range(len(m2)):  #bucle que hace un número de recorridos igual al número de columnas de la matriz 2 (o columnas de la matriz 1)
             
                 element+=m1[i][j]*m2[j][k]   #obtenemos cada elemento de la matriz resultante haciendo sumas
-            
             fila.append(element)  #agregamos cada elemento a la fila
-        
+
         m3.append(fila)     #agregamos cada fila a la matriz resultante
         
-        for i in range(len(m3)):
-            print(m3[i])
+    for i in range(len(m3)):
+        print(m3[i])
             
-    return m3        
+            
     
             
 
